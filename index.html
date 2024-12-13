@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+            <h1>TRAVEL MATE</h1>
+            </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Your Adventure Awaits</h1>
+                <p>Find the best travel deals and explore the world with us.</p>
+                <button onclick="bookNow()">Book Now</button>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="about">
+        <h2>About Us</h2>
+        <img src="travel.jpg" alt="About us image" class="about-image">
+        <p>TravelMate is your ultimate travel companion, helping you discover amazing destinations and unforgettable experiences.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="flight.jpg" alt="Flight Booking"></div>
+            <div class="gallery-item"><img src="hotel.img" alt="Hotel Reservations"></div>
+            <div class="gallery-item"><img src="holiday.jpg" alt="Holiday Packages"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <img src="contact.jpg" alt="Contact us image" class="contact-image">
+        
+        <!-- Additional Content (Address, Phone, Business Hours) -->
+        <div class="contact-details">
+            <h3>Our Office</h3>
+            <p>Visit us at our office for in-person consultations:</p>
+            <address>
+                <strong>TravelMate Ltd.</strong><br>
+                123 Adventure St.<br>
+                Wanderlust City, 12345<br>
+                Country XYZ
+            </address>
+    
+            <h3>Phone Number</h3>
+            <p>Call us at: <strong>(123) 456-7890</strong></p>
+    
+            <h3>Business Hours</h3>
+            <p>We're available during the following hours:</p>
+            <ul>
+                <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
+                <li>Saturday: 10:00 AM - 4:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+    
+        <!-- Contact Form -->
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 TravelMate. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
